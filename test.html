@@ -1,0 +1,35 @@
+<html>
+
+    <head>
+        <style type="text/css">
+        body {
+            color: blue;
+            width: 300px;
+        }
+        #a{ 
+            color: green;
+            padding: 10pt;
+            background-color: blue;
+            height: 200;
+        }
+        </style>
+        <script type="text/javascript">
+        var newSetting = 200;
+        function growLonger(element){
+            target = document.getElementById(element);
+            target.style.height = newSetting;
+            target.style.width = newSetting;
+            newSetting = newSetting +20;
+
+            if (newSetting == 500){
+                clearTimeout(loopTimer);
+                return false;
+            }
+            var loopTimer = setTimeout('growLonger(\''+element+'\')',50);
+                target.InnerHTML = "<p style="text-align:center"> It is <b> Done </b><p>";
+        }
+        </script>
+        <title>"Test</title>
+    </head>
+
+  

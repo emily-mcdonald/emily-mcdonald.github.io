@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: 'Heebo', sans-serif;
-    color: rgb(49,51,53);
+    color: rgb(29,31,33);
 
 
 }
@@ -17,7 +17,7 @@ header {
     border-bottom-style: solid;
     border-width: thin;
     border-bottom-color: rgba(64,66,68,0.2);
-    color: rgb(49,51,53);
+    color: rgb(29,31,33);
     padding-top:40px;
     padding-left: 60px;
     padding-top: 60px;
@@ -26,7 +26,7 @@ header {
 }
 
 header a {
-    color: rgb(49,51,53);
+    color: rgb(29,31,33);
     text-decoration: none;
     padding: 10px;
     text-align: left;
@@ -36,7 +36,7 @@ nav {
     display: inline-block;
     padding-left: 150px;
     font-size: 1.2em;
-    font-color: rgb(49,51,53);
+    font-color: rgb(29,31,33);
 }
 #about {
     padding-bottom: 0px;
@@ -118,7 +118,7 @@ nav {
 #bio {
     text-align: justify;
     vertical-align: top;
-    color: rgb(49,41,43);
+    color: rgb(29,31,33);
     margin-right: 54px;
     margin-left: 30px;
     margin-top: 40px;
@@ -151,7 +151,7 @@ nav {
 }
 a {
     text-decoration: none;
-    color: rgb(49,41,43);
+    color: rgb(29,31,33);
 }
 
 
@@ -160,7 +160,7 @@ a {
     text-align:center;
     padding-top: 50px;
     font-size: 1.2em;
-    color: rgb(39,31,33);
+    color: rgb(29,31,33);
 }
 #title {
     font-weight: bold;
@@ -187,6 +187,7 @@ a {
     
 }
 #description {
+    font-size: 1em;
     display: inline-flex;
     width: 500px;
     right: 0;
@@ -195,6 +196,7 @@ a {
     
 }
 #projectTitle {
+    font-size: 1.3em;
     left: 400px;
     padding-top: 50px;
     font-weight: bold;
@@ -220,3 +222,101 @@ a {
     transition-duration: .6s;
     opacity: 1;
 }
+#infoContainer {
+    margin-bottom: 5%;
+}
+#goalTitle {
+    font-size: 1.4em;
+    width: 75%;
+    border-bottom: solid;
+    border-bottom-width: thin;
+    border-bottom-color: rgba(49,51,53,0.3);
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 2%;
+    margin-left: 5%;
+}
+#goalInfo{
+    display: none;
+    font-size: 1em;
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-bottom: 2%;
+}
+#methodsTitle {
+    font-size: 1.4em;
+    width: 75%;
+    border-bottom: solid;
+    border-bottom-width: thin;
+    border-bottom-color: rgba(49,51,53,0.3);
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 2%;
+    margin-left: 5%;
+}
+#methodsInfo{
+    display: none;
+    font-size: 1em;
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-bottom: 2%;
+}
+#resultsTitle {
+    font-size: 1.4em;
+    width: 75%;
+    border-bottom: solid;
+    border-bottom-width: thin;
+    border-bottom-color: rgba(49,51,53,0.3);
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 2%;
+    margin-left: 5%;
+}
+#resultsInfo{
+    display: none;
+    font-size: 1em;
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+
+/*#projectInfo {
+    margin: 0 auto;
+    text-align: center;
+    height: 100%;
+    width: 90%;
+    margin-top: 20px;
+}
+#projectInfo2 {
+    margin: auto;
+    font-size: .8em;
+    height: 100%;
+    width: 90%;
+    margin-top: 20px;
+    display: none;
+}
+#infoBox {
+    font-size: 1.2em;
+    font-weight: bold;
+    font-color: rgb(29,32,33);
+    
+    margin: auto;
+    width: 33%;
+    height: 50px;
+    display: inline-flex;
+    
+}
+
+#hiddenInfo {
+    background-color: darkgrey;
+    margin-right: 20px;
+    font-size: 1.2em;
+    font-weight: bold;
+    font-color: rgb(29,32,33);
+    text-align: justify;
+    margin: auto;
+    width: 25%;
+    height: 50px;
+    display: inline-flex;
+}
+*/
