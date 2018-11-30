@@ -1,11 +1,39 @@
 $(document).ready(function(){
-	// new Vivus('Capa_1', {
-	// 	type: 'delayed',
-	// 	duration: 3000,
-	// 	animTimingFunction: Vivus.EASE},
-	// 	function (obj) {
-	//   obj.el.classList.add('finished');
-	// });
+
+	//CAR ANIMATION - draw when mouse touches
+$(".project1").mouseenter(function() {
+    new Vivus('Capa_1', {
+    type: 'oneByOne',
+    duration: 750,
+    animTimingFunction: Vivus.EASE_OUT},
+    function (obj) {
+    obj.el.classList.add('finished');
+    });
+});
+
+//ROBOT ANIMATION - draw when mouse touches
+$(".project2").mouseenter(function() {
+    new Vivus('Layer_1', {
+    type: 'oneByOne',
+    duration: 750,
+    animTimingFunction: Vivus.EASE_OUT},
+    function (obj) {
+    obj.el.classList.add('finished');
+    });
+});
+
+//HEART - draw when mouse touches
+$(".project3").mouseenter(function() {
+    new Vivus('Layer_2', {
+    type: 'oneByOne',
+    duration: 750,
+    animTimingFunction: Vivus.EASE_OUT},
+    function (obj) {
+    obj.el.classList.add('finished');
+    });
+});
+
+
 console.log('ready!');
 
 // function showInfo(){

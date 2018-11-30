@@ -115,8 +115,11 @@ nav {
     vertical-align: top;
     margin-right: 45px;
     margin-left: 40px;
+    width: 250px;
+    height: 250px;
 
 }
+
 #bio {
     text-align: justify;
     vertical-align: top;
@@ -129,7 +132,31 @@ nav {
 
 
 /*****PROJECT PAGE******/
-.project {
+.project1 {
+    width: 45%;
+    margin: auto;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2em;
+    margin: 10px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    display: inline-block;
+   
+}
+.project2 {
+    width: 45%;
+    margin: auto;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2em;
+    margin: 10px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    display: inline-block;
+   
+}
+.project3 {
     width: 45%;
     margin: auto;
     text-align: center;
@@ -144,8 +171,22 @@ nav {
 
 
 @media only screen and (max-width: 600px) {
-    .project {
-        width: 100%;
+    .project1 {
+        width: 50%;
+        margin-left: 25%;
+        margin-right: 25%;
+        font-size: 1.5em;
+        }
+    .project2 {
+        width: 50%;
+        margin-left: 25%;
+        margin-right: 25%;
+        font-size: 1.5em;
+        }
+    .project3 {
+        width: 50%;
+        margin-left: 25%;
+        margin-right: 25%;
         font-size: 1.5em;
         }
 
