@@ -128,7 +128,7 @@ nav {
 
 /*****PROJECT PAGE******/
 .project {
-    width: 450px;
+    width: 45%;
     margin: auto;
     text-align: center;
     font-weight: bold;
@@ -139,6 +139,16 @@ nav {
     display: inline-block;
    
 }
+
+
+@media only screen and (max-width: 800px) {
+    .project {
+        width: 100%;
+        
+        }
+
+}
+
 .projectPic {
     opacity: .85;
     padding: 10px;
